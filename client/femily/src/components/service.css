@@ -1,0 +1,74 @@
+.title_service {
+    text-align: center;
+    margin-bottom: 2vw;
+    font-family: Cormorant, serif;
+    font-size: 2.4vw;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2vw;
+    margin-bottom: 2vw;
+}
+
+.service-card {
+    width: 25vw; /* Две карточки на одной линии */
+    border: 0.5vw solid #DFC19F;
+    border-radius: 0;
+    overflow: hidden;
+}
+
+.service-card img {
+    width: 100%;
+    height: auto;
+}
+
+.service-card .card-body {
+    padding: 1vw;
+    text-align: center;
+}
+
+.pagination-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pagination-buttons .btn {
+    background-color: #DFC19F;
+    border-radius: 0;
+    border: #DFC19F;
+    margin: 0 10px;
+    font-family: Cormorant, serif;
+    font-size: 1vw;
+
+}
+
+.pagination-buttons .btn:disabled {
+    background-color: #DFC19F;
+    font-family: Cormorant, serif;
+    font-size: 1vw;
+}
+
+
+@keyframes slide-in {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.pagination-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 2vw;
+}
+
+.title_service {
+    text-align: center;
+    font-size: 2vw;
+}
+
+
